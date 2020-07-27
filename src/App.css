@@ -13659,3 +13659,31 @@ screen and (min-width:40em) {
 .show{
 display: block;
 }
+@media print, screen and (min-width:40em) {
+	.cell-overlap {
+		position: relative;
+		width: 150%;
+		left: -50%;
+		min-height: 0;
+		margin: 3rem 0;
+		background-color:white;
+		padding:20px;
+		border-radius: 25px;
+	}
+}
+@media print, screen and (min-width:64em) {
+	.cell-overlap {
+		padding: 2.2rem;
+	}
+}
+@media print, screen and (max-width:40em) {
+	.cell-overlap h2 {
+		padding-top:20px;
+	}
+}
+.cell-left {
+	border-radius: 20px;
+}
+.cell-left img {
+	border-radius: 20px;
+}

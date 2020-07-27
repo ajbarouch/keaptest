@@ -8,10 +8,10 @@ class Form extends React.Component {
         <div className="grid-container grid-margin-y">
           <div className="grid-x grid-padding-x">
             <div className="medium-6 cell">
-                <input type="text" placeholder="First Name" />
+                <input type="text" placeholder="Name" />
             </div>
             <div className="medium-6 cell">
-                <input type="text" placeholder="Last Name" />
+                <input type="text" placeholder="Email" />
             </div>
           </div>
         <div className="grid-x grid-padding-x">

@@ -9,9 +9,8 @@ class Hero extends React.Component {
                 <div className="medium-12 cell">
                     <div className="hero-section">
                         <div className="hero-section-text">
-                            <h1>We Sell Clouds!</h1>
-                            <h2>Don't Believe Us? Well you shouldn't.</h2>
-                            <p>Clouds belong to everybody.</p>
+                            <h1>Stock Images of Clouds!</h1>
+                            <h2>Are lovely and plentiful.</h2>
                         </div>
                     </div>
                 </div>
